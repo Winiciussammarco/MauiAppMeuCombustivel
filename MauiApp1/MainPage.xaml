@@ -12,11 +12,18 @@
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
-            
+
+            <Label Text="Marca do carro:" />
+            <Entry x:Name="marcaEntry" Placeholder="Digite a marca" />
+
+            <Label Text="Modelo do carro:" />
+            <Entry x:Name="modeloEntry" Placeholder="Digite o modelo" />
+
+
             <Label Text="Preço do etanol:"/>
             <Entry x:Name="txt_etanol" Placeholder="R$" />
 
-            <Label Text="Preço do etanol:"/>
+            <Label Text="Preço do gasolina:"/>
             <Entry x:Name="txt_gasolina" Placeholder="R$" />
 
             <Button Text="Qual compensa mais" Clicked="Button_Clicked"/>
